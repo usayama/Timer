@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="CLR-rs-BCb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="CLR-rs-BCb">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xca-xh-Jga">
                                 <rect key="frame" x="152" y="215.5" width="71" height="36"/>
@@ -44,6 +43,10 @@
                             <constraint firstItem="rE1-gJ-LNQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="9cJ-P9-vsD"/>
                             <constraint firstItem="Xca-xh-Jga" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="FyG-84-Jbs"/>
                             <constraint firstItem="Xca-xh-Jga" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VT4-XH-E4z"/>
+                            <constraint firstItem="CLR-rs-BCb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gNz-Ty-ILA"/>
+                            <constraint firstItem="CLR-rs-BCb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gVg-di-OxY"/>
+                            <constraint firstItem="CLR-rs-BCb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gbR-Pi-Xlq"/>
+                            <constraint firstItem="CLR-rs-BCb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ki1-o8-fF2"/>
                             <constraint firstItem="Dgm-fA-TzO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="km7-i9-RxA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
