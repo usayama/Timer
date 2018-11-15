@@ -28,15 +28,16 @@
                                 <rect key="frame" x="37.5" y="363.5" width="140" height="140"/>
                                 <state key="normal" image="btn_start"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rE1-gJ-LNQ">
-                                <rect key="frame" x="206" y="323" width="140" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rE1-gJ-LNQ">
+                                <rect key="frame" x="197.5" y="363.5" width="140" height="140"/>
                                 <state key="normal" image="btn_stop"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Dgm-fA-TzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="6nb-d5-du5"/>
+                            <constraint firstItem="rE1-gJ-LNQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="7xX-Dm-cZZ"/>
+                            <constraint firstItem="rE1-gJ-LNQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="9cJ-P9-vsD"/>
                             <constraint firstItem="Xca-xh-Jga" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="FyG-84-Jbs"/>
                             <constraint firstItem="Xca-xh-Jga" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VT4-XH-E4z"/>
                             <constraint firstItem="Dgm-fA-TzO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="km7-i9-RxA"/>
