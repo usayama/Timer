@@ -54,6 +54,9 @@
                     <navigationItem key="navigationItem" id="ojX-T9-PrM">
                         <barButtonItem key="rightBarButtonItem" title="秒数設定" id="nlF-cQ-roP"/>
                     </navigationItem>
+                    <connections>
+                        <segue destination="xzJ-uI-UM9" kind="show" identifier="goSetting" id="xIy-1A-QQI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
