@@ -48,5 +48,18 @@ class ViewController: UIViewController {
         // 残り時間を戻り値に設定
         return remainCount
     }
+    
+    // 経過時間の処理
+    @objc func timerInterrupt(_ timer:Timer) {
+        // countに+1していく
+        count += 1
+        // remainCountが0以下のときタイマーを止める
+        if displayUpdate() <= 0 {
+            // 初期化処理
+            count = 0
+            // タイマー停止
+            timer.invalidate()
+        }
+    }
 }
 
