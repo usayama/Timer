@@ -31,6 +31,17 @@ class ViewController: UIViewController {
     @IBAction func settingButtonAction(_ sender: UIBarButtonItem) {
     }
     @IBAction func startButtonAction(_ sender: UIButton) {
+        // timerをアンラップしてnowTimerに代入
+        if let nowTimer = timer {
+            // もしタイマーが実行中ならスタートしない
+            if nowTimer.isValid == true {
+                // 何も処理しない
+                return
+            }
+        }
+        
+        // タイマーをスタート
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.timerInterrupt(_:)), userInfo: nil, repeats: true)
     }
     @IBAction func stopButtonAction(_ sender: UIButton) {
     }
