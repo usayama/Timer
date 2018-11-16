@@ -55,6 +55,7 @@
                         <barButtonItem key="rightBarButtonItem" title="秒数設定" id="nlF-cQ-roP"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="countDownLabel" destination="Xca-xh-Jga" id="43l-b3-6cr"/>
                         <segue destination="xzJ-uI-UM9" kind="show" identifier="goSetting" id="xIy-1A-QQI"/>
                     </connections>
                 </viewController>

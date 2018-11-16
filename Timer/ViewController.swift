@@ -16,5 +16,6 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var countDownLabel: UILabel!
 }
 
