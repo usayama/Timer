@@ -52,7 +52,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="ojX-T9-PrM">
-                        <barButtonItem key="rightBarButtonItem" title="秒数設定" id="nlF-cQ-roP"/>
+                        <barButtonItem key="rightBarButtonItem" title="秒数設定" id="nlF-cQ-roP">
+                            <connections>
+                                <action selector="settingButtonAction:" destination="BYZ-38-t0r" id="X2G-gJ-NQk"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="countDownLabel" destination="Xca-xh-Jga" id="43l-b3-6cr"/>
