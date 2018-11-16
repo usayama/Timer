@@ -27,4 +27,6 @@ class SettingViewController: UIViewController {
     }
     */
 
+
+    @IBOutlet weak var timerSettingPicker: UIPickerView!
 }

@@ -99,6 +99,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Cys-fo-ar4"/>
                     </view>
+                    <connections>
+                        <outlet property="timerSettingPicker" destination="Sz8-Uc-U1H" id="D1J-RT-aXY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rPk-V0-Bbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
