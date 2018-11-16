@@ -30,10 +30,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgm-fA-TzO">
                                 <rect key="frame" x="37.5" y="363.5" width="140" height="140"/>
                                 <state key="normal" image="btn_start"/>
+                                <connections>
+                                    <action selector="startButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fCA-9i-4Yg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rE1-gJ-LNQ">
                                 <rect key="frame" x="197.5" y="363.5" width="140" height="140"/>
                                 <state key="normal" image="btn_stop"/>
+                                <connections>
+                                    <action selector="stopButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tt8-6a-CUM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
